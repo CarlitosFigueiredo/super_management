@@ -3,7 +3,7 @@
         <ul class="space-y-2">
             <li>
                 <a
-                    href="/dashboard"
+                    href="{{ route('dashboard.index') }}"
                    class="block p-2 rounded hover:bg-gray-700"
                 >
                     Dashboard
@@ -12,7 +12,7 @@
 
             <li>
                 <a
-                    href="/about"
+                    href="{{ route('about.index') }}"
                     class="block p-2 rounded hover:bg-gray-700"
                 >
                     Sobre Nós
@@ -21,7 +21,7 @@
 
             <li>
                 <a
-                    href="/contact"
+                    href="{{ route('contact.index') }}"
                     class="block p-2 rounded hover:bg-gray-700"
                 >
                     Contato
