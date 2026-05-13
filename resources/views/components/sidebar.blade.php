@@ -1,29 +1,20 @@
-<aside class="w-64 bg-gray-800 text-white min-h-screen p-4">
+<aside>
     <nav>
-        <ul class="space-y-2">
+        <ul>
             <li>
-                <a
-                    href="{{ route('dashboard.index') }}"
-                   class="block p-2 rounded hover:bg-gray-700"
-                >
+                <a href="{{ route('dashboard.index') }}">
                     Dashboard
                 </a>
             </li>
 
             <li>
-                <a
-                    href="{{ route('about.index') }}"
-                    class="block p-2 rounded hover:bg-gray-700"
-                >
+                <a href="{{ route('about.index') }}">
                     Sobre Nós
                 </a>
             </li>
 
             <li>
-                <a
-                    href="{{ route('contact.index') }}"
-                    class="block p-2 rounded hover:bg-gray-700"
-                >
+                <a href="{{ route('contact.index') }}">
                     Contato
                 </a>
             </li>
