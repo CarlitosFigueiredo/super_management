@@ -13,11 +13,11 @@ Route::resources([
     'about' => AboutController::class,
     'contact' => ContactController::class,
 
-    'app.client' => ClientController::class,
-    'app.supplier' => SupplierController::class,
-    'app.product' => ProductController::class,
+    'client' => ClientController::class,
+    'supplier' => SupplierController::class,
+    'product' => ProductController::class,
 ]);
 
 Route::fallback(function () {
-   return redirect()->route('dashboard.index');
+    return redirect()->route('dashboard.index');
 });

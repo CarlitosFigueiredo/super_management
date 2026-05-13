@@ -12,7 +12,7 @@ class ContactController extends Controller
      */
     public function index(): View
     {
-        return view('contact.contact');
+        return view('pages.contact.contact');
     }
 
     /**
